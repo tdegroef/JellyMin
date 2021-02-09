@@ -166,3 +166,9 @@ span.material-icons.listItemImageButton-icon.play_arrow {
 button.listItemImageButton.itemAction.paper-icon-button-light:hover:not(:disabled) {
     background-color: rgba(0,164,220,.7)
 }
+
+/* Style the number of episodes left */
+
+
+/* Progressbar */
+.itemProgressBar { background: rgba(0,0,0,0); }
