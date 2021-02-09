@@ -135,3 +135,34 @@
       border-bottom-right-radius: var(--rounding);
       border-top-right-radius: var(--rounding);
   }
+
+/* PLAY, WATCHED, FAVORITE and MENU button */
+button.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light.cardOverlayFab-primary,
+button.listItemImageButton.itemAction.paper-icon-button-light {
+    transform: none;
+}
+button.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light:hover:not(:disabled).cardOverlayFab-primary {
+    background-color: rgba(0,164,220,.7);
+}
+button.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light.cardOverlayFab-primary {
+    border-radius: 5px;
+}
+span.material-icons.cardOverlayButtonIcon.cardOverlayButtonIcon-hover.play_arrow {
+    color: hsla(0,0%,100%,.76);
+}
+button.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light.emby-button,
+button.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light:hover:not(:disabled) {
+    background-color: transparent;
+}
+
+button.listItemImageButton.itemAction.paper-icon-button-light {
+    font-size: 1.2em;
+}
+
+span.material-icons.listItemImageButton-icon.play_arrow {
+    color: hsla(0,0%,100%,.76);
+}
+
+button.listItemImageButton.itemAction.paper-icon-button-light:hover:not(:disabled) {
+    background-color: rgba(0,164,220,.7)
+}
