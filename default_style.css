@@ -186,3 +186,12 @@ button.listItemImageButton.itemAction.paper-icon-button-light:hover:not(:disable
 
 /* Progressbar */
 .itemProgressBar { background: rgba(0,0,0,0); }
+
+/* Make right click menu smaller */
+.layout-desktop .listItemBodyText {
+  margin: 0;
+}
+  
+.actionsheetListItemBody {
+  padding: 0;
+}
