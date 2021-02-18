@@ -2,7 +2,12 @@
   --rounding: 5px;
 }
 
- /* Shrink and square (or round) cast thumnails and more like this */
+/* Remove backdropImage */
+.backdropImage {
+  display: none;
+}
+
+/* Shrink and square (or round) cast thumnails and more like this */
 @media all and (min-width: 131.25em){
   #castContent .card.overflowPortraitCard,
   .similarContent .card.overflowPortraitCard {
