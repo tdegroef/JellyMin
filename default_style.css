@@ -290,3 +290,8 @@ button.listItemImageButton.itemAction.paper-icon-button-light:hover:not(:disable
 .actionsheetListItemBody {
   padding: 0;
 }
+
+/* Remove right padding when listing items */
+.padded-right {
+  padding-right: 3.3% !important;
+}
